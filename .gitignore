@@ -1,0 +1,19 @@
+# Obsidian local state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Do not track plugin source/runtime files
+.obsidian/plugins/
+
+# AI / embedding / copilot local data
+.smart-env/
+copilot/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
