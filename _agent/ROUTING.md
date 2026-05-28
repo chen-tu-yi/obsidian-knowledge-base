@@ -1,30 +1,69 @@
 # Agent Routing Rules
 
-Use this file to decide which Obsidian notes are relevant.
+Use this file to decide which Obsidian notes are relevant. Route by task type first. Do not scan the entire vault unless the user asks for a full vault review.
 
-## Resume / Job Search / Interview
+## Universal Startup
+
+For any agent working inside this vault, read in this order:
+
+1. `AGENTS.md`
+2. `00_INDEX.md`
+3. `_agent/START_HERE.md`
+4. `_agent/OPERATING_RULES.md`
+5. `_agent/ROUTING.md`
+6. `06_Prompts/00_README.md`
+7. `06_Prompts/Knowledge_Tag_Index.md`
+
+If a requested file is missing, report it and continue with available files.
+
+## trad Repository
 
 Read:
 
-- `10_Knowledge/Career/`
-- `20_Projects/resume-ai/`
-- `30_Prompts/Resume_Agent.md`
+- `05_Projects/trad/PROJECT_CONTEXT.md`
+- `05_Projects/trad/agent.md`
+- `07_Index/TRAD_INDEX.md`
+- `04_MOC/Knowledge Base System.md`
+- `06_Prompts/Knowledge_Tag_Index.md`
+
+Search tags:
+
+- `#project/trad`
+- `#domain/trading`
+- `#domain/quant_finance`
+- `#domain/risk_management`
+- `#domain/agent_workflow`
+- `#method/backtesting`
+- `#method/trend_following`
+- `#method/breakout_trading`
+- `#method/position_sizing`
+- `#method/model_validation`
 
 Use for:
 
-- Resume bullet improvement
-- Cover letter drafting
-- JD matching
-- Interview preparation
-- ATS keyword analysis
+- BTC 4-hour research notes
+- Backtest design and audit
+- Risk-control review
+- Paper-trading readiness notes
+- Converting external trader notes into research tickets
 
 ## Quant / Finance / Equity Research
 
 Read:
 
-- `10_Knowledge/Finance/`
-- `20_Projects/quant/`
-- `30_Prompts/Research_Agent.md`
+- `05_Projects/Quant project/PROJECT_CONTEXT.md`
+- `05_Projects/Quant project/agent.md`
+- `04_MOC/Knowledge Base System.md`
+- `06_Prompts/Knowledge_Tag_Index.md`
+
+Search tags:
+
+- `#domain/quant_finance`
+- `#domain/equity_research`
+- `#domain/risk_management`
+- `#method/statistical_modeling`
+- `#method/model_validation`
+- `#method/time_series`
 
 Use for:
 
@@ -34,29 +73,47 @@ Use for:
 - Quant research
 - Portfolio analytics
 
-## Trading Strategy
+## Resume / Job Search / Interview
 
 Read:
 
-- `10_Knowledge/Trading/`
-- `20_Projects/trading-agent/`
-- `30_Prompts/Trading_Research_Agent.md`
+- `04_MOC/Knowledge Base System.md`
+- `06_Prompts/00_README.md`
+- `06_Prompts/Knowledge_Tag_Index.md`
+
+Search tags:
+
+- `#domain/resume`
+- `#domain/job_application`
+- `#domain/interview`
+- `#method/star_resume`
+- `#method/jd_mapping`
+- `#method/ats_keywords`
 
 Use for:
 
-- Strategy research
-- Backtesting design
-- Risk management
-- Trade journal analysis
+- Resume bullet improvement
+- Cover letter drafting
+- JD matching
+- Interview preparation
+- ATS keyword analysis
 
 ## Programming / Coding Projects
 
 Read:
 
-- `10_Knowledge/Programming/`
 - Current project `AGENTS.md`
 - Current project `README.md`
 - Current project source code
+- `06_Prompts/Knowledge_Tag_Index.md` when KB tags are needed
+
+Search tags:
+
+- `#domain/software_engineering`
+- `#domain/python`
+- `#method/debugging`
+- `#method/testing`
+- `#method/refactoring`
 
 Use for:
 
@@ -69,12 +126,34 @@ Use for:
 
 Read:
 
-- `10_Knowledge/AI_Agent/`
-- `20_Projects/obsidian-system/`
+- `_agent/START_HERE.md`
 - `_agent/OPERATING_RULES.md`
+- `_agent/ROUTING.md`
+- `04_MOC/Knowledge Base System.md`
+- `06_Prompts/00_README.md`
+- `06_Prompts/Obsidian_Knowledge_Base_Rules.md`
+- `06_Prompts/Knowledge_Tag_Index.md`
+
+Search tags:
+
+- `#domain/knowledge_management`
+- `#domain/note_taking`
+- `#domain/agent_workflow`
+- `#method/knowledge_extraction`
+- `#method/moc_building`
+- `#project/obsidian_kb`
 
 Use for:
 
 - Knowledge base organization
 - Agent workflow design
 - Prompt system improvement
+- Tag cleanup
+- MOC building
+
+## Operating Boundary
+
+- Read first by default.
+- Do not delete, rename, or bulk move notes unless explicitly requested.
+- Do not update formal MOCs unless the user asks or the task is explicitly an indexing task.
+- Prefer appending a clear section over rewriting old notes.
